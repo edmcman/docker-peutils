@@ -7,3 +7,4 @@ ADD msundname /root/
 
 RUN apt-get -y update
 RUN apt-get -y install wine
+RUN wine || true
